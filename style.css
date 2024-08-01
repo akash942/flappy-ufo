@@ -1,0 +1,59 @@
+
+  /* :root {
+    font-size: 24px;
+  } */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #27374D;
+  align-items: center;
+  align-content: center;
+  font-size: 2rem;
+  margin: 0;
+}
+/* 
+#ufo {
+  height: 200px;
+  width: 200px; 
+
+} */
+
+/* svg {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 15rem;
+  left: 10rem;
+} */
+
+#canvas {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+  background-image: url(./resources/pexels-francesco-ungaro-998641.jpg);
+  background-size: cover;
+  
+}
+
+#start {
+  position: fixed;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  /* height: 400px;
+  width: 200px; */
+  color: bisque;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Gantari', sans-serif;
+}
+p {
+  font-family: 'EB Garamond', serif;
+}
